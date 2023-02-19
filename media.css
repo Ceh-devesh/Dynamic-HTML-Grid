@@ -1,0 +1,24 @@
+@media screen and (max-width : 480px) {
+    .mainHeading {
+        display: table;
+        margin: 30px auto 40px auto;
+    }
+
+    #clothingContainer {
+        grid-template-columns: auto auto;
+        margin: 0 50px 100px 50px;
+        row-gap: 50px;
+        /* align-items: center; */
+    }
+
+    #accessoriesContainer {
+        grid-template-columns: auto auto;
+        margin: 0 50px 100px 50px;
+        row-gap: 50px;
+        /* align-items: center; */
+    }
+
+    .card:last-of-type {
+        padding: 0 auto;
+    }
+}
